@@ -1,0 +1,16 @@
+NAME
+INTRO: 
+
+    short bio, 
+    short skills description
+
+LOCATION(?)
+PORTFOLIO:
+
+    images, 
+    resume, 
+    demo, 
+    code, 
+    tool used
+
+CONTACT
