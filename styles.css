@@ -317,6 +317,8 @@ main #portfolio .projects .project .project-resume .resume .links {
 
 main #portfolio .projects .project .project-resume .resume .description {
     margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 main #portfolio .projects .project .project-resume .resume p {
@@ -329,24 +331,43 @@ main #portfolio .projects .project .project-resume .resume p {
 
 main #portfolio .projects .project .project-resume .resume .description p {
     color: rgb(0, 208, 255);
+    transition: all .2s;
+    margin-right: 24px;
+}
+
+main #portfolio .projects .project .project-resume .resume .description p:hover {
+    color: white;
+    transition: all .2s;
+    /* cursor: pointer; */
 }
 
 main #portfolio .projects .project .project-resume .resume .links{
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    height: 100px;
+    /* background-color: #777; */
+    border-top: 1px solid #777;
     margin-top: auto;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
+    
 }
 
 main #portfolio .projects .project .project-resume .resume .links a {
-    text-decoration: none;
+    /* text-decoration: yellow; */
     
 }
 
 main #portfolio .projects .project .project-resume .resume .links a p {
     color: yellow;
     font-size: 12px;
+    text-decoration: underline;
+}
+
+main #portfolio .projects .project .project-resume .resume .links a p:hover {
+    /* background-color: white; */
+    color: white;
 }
 
 #contact .content {
