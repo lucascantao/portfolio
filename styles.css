@@ -18,8 +18,8 @@ html {
 }
 
 body {
-    min-height: 100vh;
-    max-width: 100vw;
+    /* min-height: 100vh; */
+    /* max-width: 100vw; */
     position: relative;
 }
 
@@ -149,6 +149,10 @@ i {
     color: var(--color-foreground);
 }
 
+aside .social i:hover {
+    color: #bbb;
+    transition: all .3s;
+}
 /* MAIN-SECTIONS */
 
 main {
@@ -247,10 +251,10 @@ main #portfolio .project .black:hover {
 
 main #portfolio .projects .project .project-resume {
     position: fixed;
-    top: 0%;
-    bottom: 0;
-    right: 100;
-    left: 100;
+    top: 20%;
+    /* bottom: 0; */
+    /* right: ; */
+    left: 20%;
 
     height: 400px;
     /* width: 600px; */
