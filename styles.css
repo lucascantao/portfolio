@@ -383,9 +383,14 @@ main #portfolio .projects .project .project-resume .resume .links a p:hover {
 }
 
 #contact .content .invite {
-    margin-bottom: 50px;
+    margin-bottom: 28px;
     font-size: 24px;
     letter-spacing: 3px;
+}
+
+.sub {
+    margin: 0 0 8px;
+    font-size: 18px;
 }
 
 #contact form input, 
@@ -393,50 +398,45 @@ main #portfolio .projects .project .project-resume .resume .links a p:hover {
     margin-bottom: 15px;
 }
 
-#contact form #name,
-#contact form #email {
-    height: 40px;
-    width: 50%;
-
-    padding: 0 10px;
-
-    background-color: #11111144;
-    border: 1px solid #333;
-    color: var(--color-text);
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-#contact form textarea {
-    
-    background-color: #11111144;
-    color: var(--color-text);
-
-    border: 1px solid #333;
-    padding: 10px;
-
-    width: 100%;
-    min-height: 250px;
-}
-
-#contact form #name:focus,
-#contact form #email:focus,
-#contact form textarea:focus {
-    background-color: #222
-} 
 
 #contact #submit {
-    width: 150px;
+    width: 200px;
     height: 40px;
 
     background-color: #333;
     border: 1px solid #444;
-    color: var(--color-text);
+    outline: none;
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     text-transform: capitalize;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 #contact #submit:hover {
     cursor: pointer;
     background-color: #444;
-    border: 1px solid #555;
+    border: 1px solid #777;
+}
+
+#submit input {
+    background: none;
+    outline: none;
+    border: none;
+
+    color: var(--color-text);
+}
+
+#submit #e-mail {
+
+    font-size: 22px;
+
 }
